@@ -1,12 +1,15 @@
-Couldn't find a sultion I Like to manage NordVPN from the command line, so I made this.
-It still need's a lot of work, but main funcationality I believe if done.
+Couldn't find a solution I liked, to manage NordVPN from the command line, so I made this.
+It still need's a lot of work, but main funcationality I believe is done.
 
 This is my first script/program, as such I'm sure it's not very pythonic and there are better ways of doing things.So 
 I would love your feed back and corrections.
 
 I currently have a three year subcription to NordVPN so I will try and keep this up to date at lest that long.
 
+Obviously Openvpn must be run as root so Sudo is required to run the script.
+So I would recommend looking though it and seeing if it does what you think it should.
 
+Dependencies are: python3, openvpn, wget(will probably remove at a later date), unzip, pgrep and kill
 
 
 
