@@ -1,11 +1,17 @@
-#nordvpn
 Couldn't find a sultion I Like to manage NordVPN from the command line, so I made this.
 It still need's a lot of work, but main funcationality I believe if done.
 
 This is my first script/program, as such I'm sure it's not very pythonic and there are better ways of doing things.So 
 I would love your feed back and corrections.
 
-I currently have a three year subcription to NordVPN so I will try and keep this up to date that long.
+I currently have a three year subcription to NordVPN so I will try and keep this up to date at lest that long.
+
+
+
+
+
+
+
 
 
 
