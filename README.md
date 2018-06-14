@@ -14,38 +14,37 @@ I currently have a three year subcription to NordVPN so I will try and keep this
 
 
 
+    Just a simple yet better openvpn manager for NordVPN
 
-Just a simple yet better openvpn manager for NordVPN
+    optional arguments:
+    -h, --help   show this help message and exit
 
-optional arguments:
-  -h, --help   show this help message and exit
+    --status     Allows you to double check if you are still connected to a VPN
+  
+    --update     Downloads new server list from NordVPN and updates all ovpn_tvp & ovpn_udp files in /etc/openvpn/*
 
-  --status     Allows you to double check if you are still connected to a VPN
+    -p           Specifies to use protocol TCP or UDP with your vpn server. 
+                  Example: "nordvp -rp udp" to use a random UDP server.
+  
+    -r           Uses a random server within specified protocol 
+                (Optionaly use with args -p and -c to protocol and country.)
 
-  --update     Downloads new server list from NordVPN and updates all ovpn_tvp & ovpn_udp files in /etc/openvpn/*
-
-  -p           Specifies to use protocol TCP or UDP with your vpn server. 
-               Example: "nordvp -rp udp" to use a random UDP server.
-
-  -r           Uses a random server within specified protocol 
-               (Optionaly use with args -p and -c to protocol and country.)
-
-  --recommend  Get's a recommended server based on your latitude & longitude 
+    --recommend  Get's a recommended server based on your latitude & longitude 
                when a country is specified it get's server from said country
 
-  --exit       pgreps for openvpn and kill's the instance.
+    --exit       pgreps for openvpn and kill's the instance.
 
-  --password   Uses openvpn's default password managment, 
-               if used your password will be stored in /etc/openvpn/nordpasswd
+    --password   Uses openvpn's default password managment, 
+                if used your password will be stored in /etc/openvpn/nordpasswd
 
-  --adv_ovpn   If you are familiar w/ openvpn's more advanced feature's
-               use this to append an additional agument
-               to the end of the current working ovpn file.
-               All changes will be reset at the end of your session.
-               Warning!! This takes a whole string and appends it to
-               your current server config file regardless if it is a valid command
+    --adv_ovpn   If you are familiar w/ openvpn's more advanced feature's
+                use this to append an additional agument
+                to the end of the current working ovpn file.
+                All changes will be reset at the end of your session.
+                Warning!! This takes a whole string and appends it to
+                your current server config file regardless if it is a valid command
 
-  -c           Please choose a country and use the abbreviation as the argument. (Please use uppercase)
+    -c           Please choose a country and use the abbreviation as the argument. (Please use uppercase)
                
                Albania		    :	AL
                Argentina	    :	AR 
